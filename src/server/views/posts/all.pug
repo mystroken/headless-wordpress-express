@@ -1,0 +1,6 @@
+extends ../base
+block content
+  h1= "Blog content"
+  each post in posts
+    h2
+      a(href=`/blog/${post.slug}`)= post.title

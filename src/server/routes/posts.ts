@@ -7,9 +7,7 @@ const router: Router = express.Router()
 router
   .get('/', async (req, res) => {
     try {
-      // res.render('blog', { posts: await getWpPosts() })
-      const posts = await getWpPosts();
-      console.log(posts)
+      res.render('posts/all', { posts: await getWpPosts() })
     } catch (e: any) {
       throw new Error(e)
     }
@@ -19,7 +17,7 @@ router
       const { slug } = req.params
       const postToRender = await getWpPost(slug)
 
-      res.render('post', postToRender)
+      res.render('posts/show', postToRender)
     } catch (e: any) {
       throw new Error(e)
     }
