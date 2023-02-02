@@ -9,9 +9,7 @@
 
 The boilerplate comes with the following features:
 
-- Express
-
-- Typescript
+- Typescript/Express/Pug
 
 - Eslint
 
