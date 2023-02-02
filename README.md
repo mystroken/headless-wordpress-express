@@ -1,41 +1,27 @@
-<h1>
-  Express.js + Headless WordPress
-</h1>
-<blockquote>
-  A boilerplate for building a website with Express.js by using Headless WordPress.
-</blockquote>
+# Express.js + Headless WordPress
 
-<p><br></p>
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mystroken/headless-wordpress-express/issues)
 
-The boilerplate comes with the following features:
+> A boilerplate for building a website with Express.js by using Headless WordPress.
 
-- Express
+<br>
 
-- Typescript
+**The boilerplate comes with the following features**:
 
-- Eslint
+* Express / Pug
+* Typescript / GraphQL
+* Eslint / Prettier
 
-- Prettier
+<br>
 
-<p><br></p>
+## Getting Started
 
-## Usage
+- Clone this repository locally.
+- Run `cp .env.example .env` and adjust as needed.
+- Run `yarn install` to install dependencies.
+- Use `yarn serve` to start your local server.
 
-1. Clone the project
-
-```bash
-git clone https://github.com/mystroken/headless-wordpress-express
-```
-
-2. Move to the project and start running it.
-
-```bash
-cd headless-wordpress-express
-```
-
-```bash
-yarn && yarn dev
-```
+<br>
 
 ## License
 
