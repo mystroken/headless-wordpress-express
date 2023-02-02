@@ -8,8 +8,6 @@
 
 **The boilerplate comes with the following features**:
 
-<br>
-
 * Express / Pug
 * Typescript / GraphQL
 * Eslint / Prettier
