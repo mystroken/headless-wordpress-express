@@ -7,7 +7,7 @@ import blogRoutes from './routes/posts';
  */
 export default function (app: Express) {
 
-  // Blog routes
+  // Registering routes.
   app.use('/blog', blogRoutes)
 
   // Fallback to 404.
